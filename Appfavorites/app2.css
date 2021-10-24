@@ -1,0 +1,121 @@
+@font-face { font-family: 'NatureBeauty' ;
+    src: url(polices/Ubuntu-Bold.ttf)
+
+}
+html {
+   background-color: rgb(18, 12, 48);
+    margin: 0;
+    padding: 0;
+   font-family: 'NatureBeauty';
+   
+}
+
+
+header { display: flex;
+    background: rgb(69,82,252);
+    background: linear-gradient(156deg, rgba(69,82,252,1) 35%, rgba(255,56,187,1) 78%, rgba(253,107,45,1) 97%); 
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    border-radius: 10px;
+    border: solid 2px;
+    
+}
+
+li:hover {
+    text-decoration: underline;
+}
+.app-header {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+ 
+}
+
+
+.logo-app-header {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+}
+
+footer { display: flex;
+    background: rgb(69,82,252);
+    background: linear-gradient(156deg, rgba(69,82,252,1) 35%, rgba(255,56,187,1) 78%, rgba(253,107,45,1) 97%); 
+    border-radius: 10px;
+    height: 120px;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.s1 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    background-color: rgb(69,82,252);
+    border-radius: 30px;
+    height: 150px;
+    width: 70%;
+    color: white;
+
+}
+
+.s1 h1 {
+    margin: 5%;
+}
+
+.s2 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: rgb(69,82,252);
+    border-radius: 30px;
+    height: 250px;
+    width: 75%;
+    color: white;
+    text-align: center;
+}
+.s2 h1  {
+    font-size: 28px;
+    margin-top: 4%;
+}
+
+.image img { display: flex;
+        margin: auto;
+        justify-content: center;
+        border-radius: 30px;
+
+}
+
+.s3 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(69,82,252,1);
+    width: 75%;
+    height: 300px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.s3 h1 {
+    font-size: 35px;
+}
+.s3 p {
+    font-size: 20px;
+}
+
+

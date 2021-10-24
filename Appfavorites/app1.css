@@ -1,0 +1,132 @@
+@font-face { font-family: 'NatureBeauty' ;
+    src: url(polices/Bittermilk.ttf)
+
+}
+html {
+   background-color: rgb(18, 12, 48);
+    margin: 0;
+    padding: 0;
+   font-family: 'NatureBeauty';
+   
+}
+
+header { display: flex;
+    background: rgb(255,12,102);
+    background: linear-gradient(261deg, rgba(255,12,102,1) 15%, rgba(252,152,69,1) 69%); 
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    border-radius: 10px;
+    border: solid 2px;
+    
+}
+
+li:hover {
+    text-decoration: underline;
+}
+.app-header {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+ 
+}
+
+
+.logo-app-header {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+} 
+footer { display: flex;
+    background: rgb(255,12,102);
+    background: linear-gradient(261deg, rgba(255,12,102,1) 15%, rgba(252,152,69,1) 69%); 
+    border-radius: 10px;
+    height: 120px;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.s1 { display: flex;
+    margin: 100px;
+    justify-content: space-around;
+
+}
+
+.question {
+    display: flex;
+    background-color: rgb(251, 252, 253);
+    width: 30%;
+    height: 450px;
+    background-color: rgb(236, 59, 118);
+    border-radius: 30px;
+    border: solid 5px;
+    
+}
+
+.s1 img { 
+    display: flex;
+    border-radius: 30px;
+    border: solid 5px;
+   }
+
+.s1 h1, .question h1 {
+    padding:  80px;
+    font-size: 35px;
+    color: white
+}
+
+.s2 h1, .s3 h1 { padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    
+    
+}
+.s2, .s3 {
+    display: flex;
+    background: rgb(236, 59, 118);
+    width: 800px;
+    justify-content: center;
+    height: 200px;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 30px;
+    border: solid 5px;
+
+
+}
+
+.conclusion {
+    display: flex;
+    background-color: rgb(236, 59, 118);
+    width: 800px;
+    height: 300px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: solid 5px;
+
+}
+
+.conclusion h1 {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+
+}
+.conclusion p {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+

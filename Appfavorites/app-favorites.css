@@ -1,0 +1,88 @@
+
+@font-face { font-family: 'neon' ;
+    src: url(/polices/Neon.ttf);
+
+}
+html {
+    background-color: rgb(18, 12, 48);
+    margin: 0;
+    padding: 0;
+   font-family: 'neon';
+   
+}
+
+header { display: flex;
+    background: rgb(255,191,52);
+background: linear-gradient(90deg, rgba(255,191,52,1) 11%, rgba(253,32,29,1) 45%, rgba(69,82,252,1) 100%); 
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    border-radius: 10px;
+    
+}
+
+li:hover {
+    text-decoration: underline;
+}
+.app-header {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+ 
+}
+
+
+.logo-app-header {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+} 
+
+footer { display: flex;
+    background: rgb(255,191,52);
+    background: linear-gradient(261deg, rgba(255,191,52,1) 11%, rgba(253,32,29,1) 22%, rgba(69,82,252,1) 83%); 
+    border-radius: 10px;
+    height: 120px;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+
+
+
+.s1{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(236, 59, 118);
+    margin: 4%;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.s2{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color:rgb(111, 84, 230) ;
+    margin: 4%;
+    border-radius: 10px;
+    color: white;
+}
+
+.s3{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(243, 44, 44);
+    margin: 4%;
+    border-radius: 10px;
+    color: white;
+
+}

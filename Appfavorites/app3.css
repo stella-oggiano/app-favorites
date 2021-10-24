@@ -1,0 +1,121 @@
+
+@font-face { font-family: 'neon' ;
+    src: url(/polices/Lobster-Regular.ttf);
+
+}
+html {
+    background-color: rgb(18, 12, 48);
+    margin: 0;
+    padding: 0;
+   font-family: 'neon';
+   
+}
+
+header { display: flex;
+    background: rgb(243,44,44);
+    background: linear-gradient(98deg, rgba(243,44,44,1) 39%, rgba(253,107,45,1) 68%, rgba(99,69,252,0.9696079115239846) 100%); 
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    border-radius: 10px;
+    
+}
+
+li:hover {
+    text-decoration: underline;
+}
+.app-header {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+ 
+}
+
+
+.logo-app-header {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+} 
+
+footer { display: flex;
+    background: rgb(243,44,44);
+    background: linear-gradient(98deg, rgba(243,44,44,1) 39%, rgba(253,107,45,1) 68%, rgba(99,69,252,0.9696079115239846) 100%); 
+    border-radius: 10px;
+    height: 120px;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+
+.s1 {
+    display: flex;
+    margin: auto;
+    margin-top: 4%;
+    background-color: rgb(243,44,44);
+    width: 60%;
+    height: 200px;
+    border-radius: 30px;
+    color: white;
+
+}
+
+.s1 h1, .s2 h1 {
+    display: flex;
+    vertical-align: middle;
+    margin: auto;
+    font-size: 40px;
+}
+
+.s2 {
+    display: flex;
+    margin: auto;
+    margin-top: 4%;
+    background-color: rgb(243,44,44);
+    width: 80%;
+    height: 150px;
+    justify-content: center;
+    color: white;
+    border-radius: 30px;
+}
+
+.s3 {
+    display: flex;
+    margin: auto;
+    margin-top: 4%;
+    justify-content: space-around;
+}
+
+.s3 img {
+    border-radius: 30px;
+    border: solid 3px rgb(243,44,44);
+}
+
+.conclusion {
+    display: flex;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: rgb(243,44,44);
+    width: 60%;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.conclusion h1 {
+    font-size: 40px;
+}
+
+.conclusion p {
+    font-size: 25px;
+}
+
